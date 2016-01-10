@@ -1,0 +1,16 @@
+<nav class="site-nav" role="navigation">
+	<ul class="primary-links">
+		<li class="hidden-md hidden-lg {% if page.bodyclass contains "page-home" %} active{% endif %}">
+			<a class="switch-page" href="{{ site.baseurl }}/">Home</a>
+		</li>
+		<li{% if page.bodyclass contains "page-products" %} class="active"{% endif %}>
+			<a class="switch-page" href="{{ site.baseurl }}/products/">Products</a>
+		</li>
+		<li{% if page.bodyclass contains "page-pricing" %} class="active"{% endif %}>
+			<a class="switch-page" href="{{ site.baseurl }}/pricing/">Pricing</a>
+		</li>
+		<li{% if page.bodyclass contains "page-sign-up" %} class="active"{% endif %}>
+			<a class="switch-page" href="{{ site.baseurl }}/sign-up/">Sign up</a>
+		</li>
+	</ul>
+</nav>

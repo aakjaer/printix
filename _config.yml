@@ -1,0 +1,15 @@
+name: Printix.net
+description:
+author:
+  name: Daniel Aakjær Sørensen
+
+sass:
+  sass_dir: assets/_scss
+
+permalink: date
+
+# Markdown library
+markdown: redcarpet
+#   extensions: ['fenced_code_blocks', 'smart']
+
+highlighter: pygment

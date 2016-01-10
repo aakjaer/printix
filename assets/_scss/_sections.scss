@@ -1,0 +1,180 @@
+// Content sections
+.section {
+    position: relative;
+    background-repeat: no-repeat;
+}
+
+.section .section-content {
+    @extend .container;
+    padding-top: 6em;
+    padding-bottom: 6em;
+
+    @media (max-width: $screen-xs-max) {
+        max-width: 90%;
+    }
+}
+
+.section-compact .section-content {
+    padding-top: 2em;
+    padding-bottom: 2em;
+}
+
+.section-heading {
+    font-size: 1.2em;
+    font-weight: 700;
+    text-align: center;
+
+    &:first-child {
+        margin-top: 0;
+    }
+
+    @media (min-width: $screen-sm) {
+        font-size: 2.8em;
+    }
+}
+
+.section-heading-sm {
+    margin-bottom: 1.5em;
+    font-size: 1em;
+    font-weight: 900;
+
+    @media (min-width: $screen-sm) {
+        font-size: 1.3em;
+    }
+}
+
+
+.section-image {
+    display: block;
+    max-width: 500px;
+    background-repeat: no-repeat;
+}
+
+.section-image-center {
+    @include center-block();
+}
+
+.section-sm > .container {
+    @media (min-width: $screen-md-min) {
+        max-width: 70%;
+    }
+}
+
+
+.section-more {
+    padding-bottom: 3em;
+
+    // bottom arrow
+    &::after {
+        position: absolute;
+        bottom: 4em;
+        left: 50%;
+        content: "";
+        display: inline-block;
+        /* By using an em scale, the arrows will size with the font */
+        width: 1.5em;
+        height: 1.5em;
+        border-left: 0.2em solid black;
+        border-top: 0.2em solid black;
+        border-color: $brand-light-gray;
+        @include backface-visibility(hidden);
+        @include transition(transform .2s);
+        @include transform(translateX(-50%) rotate(-135deg));
+        @include animation-delay(2s);
+    }
+}
+
+.section-bordered {
+    border-top: 5px dashed $gray-lighter;
+}
+
+ .section-narrow .section-content {
+    max-width: 50em;
+}
+
+// color combinations
+
+.section-white {
+    background: white;
+    color: $gray;
+}
+
+.section-light-blue {
+    background: $brand-light-blue;
+}
+
+.section-blue {
+    color: rgba(white, 0.9);
+    background-color: $brand-blue;
+
+    .section-heading {
+        color: white;
+    }
+}
+
+.section-dark-blue {
+    color: rgba(white, 0.9);
+    background-color: $brand-dark-blue;
+}
+
+.section-red {
+    color: rgba(white, 0.9);
+    background-color: $brand-red;
+
+    .section-heading {
+        color: white;
+    }
+}
+
+.section-green {
+    background: $brand-green;
+    color: white;
+}
+
+.section-yellow {
+    background-color: $brand-yellow;
+    color: white;
+}
+
+.section-purple {
+    color: rgba(white, 0.9);
+    background-color: $brand-purple;
+}
+
+.section-gray {
+    background-color: #f1f1f1;
+    color: $gray-dark;
+}
+
+.section-dark-gray {
+    background: #222;
+    color: white;
+}
+
+.section-light-gray {
+    background-color: #f2f2f2;
+}
+
+
+
+
+
+////////////////////////////////////////////////////
+
+
+.section-screenshots {
+	.row {
+		margin: 0;
+	}
+
+	.col {
+		@include make-xs-column(2, 0);
+		@include make-sm-column(1, 0);
+	}
+}
+
+.section-skills {
+    .display-heading {
+        color: white;
+    }
+}

@@ -1,0 +1,235 @@
+projects:
+  - title: "Semler Retail"
+    period: "2014/12 - 2015-07"
+    description: |
+      <p>I was hired to design and implement the front-end for Volkswagen Retail, a concept combining 13 Volkswagen Retail dealers into a single website.</p>
+      <p>Website: <a href="http://volkswagen.semlerretail.dk/">Volkswagen Semler Retail</a></p>
+    technology: "HTML5, JS, LESS, Autoprefixer, CSS3, Jekyll, Twitter Bootstrap, Github"
+    role: "Front-end developer, Webdesigner, UX Specialist, UI Specialist"
+    contact: "Head of the Internet department, Semler Services A/S Thomas Hansen"
+    images:
+      - small: "/img/work/2014-12_vw_retail_01.jpg"
+        large: "/img/work/2014-12_vw_retail_01_lg.jpg"
+      - small: "/img/work/2014-12_vw_retail_02.jpg"
+        large: "/img/work/2014-12_vw_retail_02_lg.jpg"
+      - small: "/img/work/2014-12_vw_retail_03.jpg"
+        large: "/img/work/2014-12_vw_retail_03_lg.jpg"
+      - small: "/img/work/2014-12_vw_retail_04.jpg"
+        large: "/img/work/2014-12_vw_retail_04_lg.jpg"
+
+  - title: "Volkswagen Service booking"
+    period: "2015/04 - 2015-06"
+    description: |
+      <p>In an attempt to convert more visits to Volkswagen's website into service bookings, I was assigned to redesign the booking form from ground up, focusing on making things easier for VW's mobile visitors.</p>
+      <p>My initial thought was to challange the existing somewhat conservative and restricted CI, while maintaining a calm and professional look/feel. Everything was build with a <a href="http://jekyllrb.com">Jekyll</a>/<a href="http://www.getbootstrap.com/">Bootstrap</a> prototype, with a minimum use of Photoshop.</p>
+    images:
+      - small: "/img/work/2015-04-vw-servicebook-01.jpg"
+        large: "/img/work/2015-04-vw-servicebook-01-lg.jpg"
+      - small: "/img/work/2015-04-vw-servicebook-02.jpg"
+        large: "/img/work/2015-04-vw-servicebook-02-lg.jpg"
+      - small: "/img/work/2015-04-vw-servicebook-03.jpg"
+        large: "/img/work/2015-04-vw-servicebook-03-lg.jpg"
+    technology: "HTML5, CSS3, SASS, Twitter Bootstrap, JS, jQuery, Github"
+    role: "Front-end developer"
+    contact: "Project manager Semler Services, Dan Andersen"
+
+  - title: "Semler car dealers"
+    period: "2014/08 - 2015-04"
+    description: |
+      <p>The massive custom build car dealer project, involving more than 300 websites, 17 car brands and multiple portal designs, I helped design and build in 2009, needed a design and functionality overhaul. Focusing on making all websites responsive, Bootstrap was chosen as the front-end framework.</p>
+
+      <p>Examples:</p>
+      <ul class="list-unstyled">
+        <li><a href="http://amager.audi.dk/">Audi</a></li>
+        <li><a href="http://www.seat-hoejbjerg.dk/">Seat</a></li>
+        <li><a href="http://www.skoda-amager.dk/">Skoda</a></li>
+        <li><a href="http://vw.auto-forum-roskilde.dk/">Volkswagen</a></li>
+        <li><a href="http://www.renault-glostrup.dk/">Renault</a></li>
+        <li><a href="http://www.autohuset-glostrup.dk/">Portal</a></li>
+      </ul>
+    responsibility: |
+      <ul>
+        <li>Updating designs to put emphasis on certain key services and call-to-actions.</li>
+        <li>Updating all brand templates to Bootstrap markup and restyling everything from ground up</li>
+        <li>Building Jekyll prototypes inside the .NET project, to allow the programmers to access the design assets (images, CSS, JS) directly without having to move things everytime changes were made.</li>
+        <li>Building a responsive menu structure to support the 3 levels of pages.</li>
+        <li>Updating form designs by consolidating and cleaning up the old ones, with the main purpose of having better conversion rates on key services.</li>
+      </ul>
+    technology: "HTML5, JS, LESS, Autoprefixer, CSS3, Jekyll, Twitter Bootstrap, Github"
+    role: "Front-end developer, Webdesigner, UX Specialist, UI Specialist"
+    contact: "Head of the Internet department, Semler Services Thomas Hansen"
+
+  - title: "SEAT.dk - Front-end development tutoring"
+    period: "2014/07 - 2014-08"
+    description: |
+      <p>Teaching fundamental front-end development skills for building a Bootstrap based <a href="http://seat.dk/">SEAT.dk</a> from scratch, including understanding HTML semantics, my thoughts on patterns to look for in a design, planning responsive behavior, CSS naming strategies, CSS pre-processor techniques, typography, tips and tricks for styling etc.</p>
+    technology: "HTML5, Twitter Bootstrap, CSS3, JS, jQuery, SASS, Github"
+    role: "Tutor"
+    contact: "Project manager Semler Services, Kenneth Bang"
+
+  - title: "Porsche.dk navigation"
+    period: "2015/02 - 2015-02"
+    description: |
+      <p>Minor assignment building a responsive multilevel dropdown navigation for the new danish Porsche website.</p>
+      <p>URL: <a href="http://porsche.dk">Porsche.dk</a></p>
+    technology: "HTML5, JS, jQuery, SASS, Autoprefixer, CSS3, Twitter Bootstrap, Github"
+    role: "Front-end developer"
+
+  - title: "Vivino"
+    period: "2013/12 - 2014/05"
+    description: |
+      <p>During the first part of 2014 I was lucky enough to help Vivino implement their brand new website for <a href="http://vivino.com">Vivino.com</a>. I was in charge of writing the front-end templates from scratch, working closely with the design team and programmers, tying the front-end and back-end functionality together.</p>
+    technology: "HTML5, CSS, CSS3, Jekyll, Twitter Bootstrap, RoR, JS, SASS, Github"
+    role: "Front-end developer, UI Specialist"
+    contact: "Founders Theis Søndergaard and Heine Zachariassen"
+    images:
+      - small: "/img/work/2013-12-01_vivino_01.jpg"
+        large: "/img/work/2013-12-01_vivino_01_lg.jpg"
+      - small: "/img/work/2013-12-01_vivino_02.jpg"
+        large: "/img/work/2013-12-01_vivino_02_lg.jpg"
+      - small: "/img/work/2013-12-01_vivino_03.jpg"
+        large: "/img/work/2013-12-01_vivino_03_lg.jpg"
+      - small: "/img/work/2013-12-01_vivino_04.jpg"
+        large: "/img/work/2013-12-01_vivino_04_lg.jpg"
+    recommendation:
+      text: |
+        <p>Daniel helped us out implementing our brand new website for Vivino.com. He was responsible for the markup, styling and basic scripting of the new site, working in Bootstrap 3 prototypes and releasing modular segments of the design into the main Rails project. </p>
+        <p>Daniel did an amazing job, delivering high quality, while communicating clearly on his deliverables. Will use again!</p>
+      footer: "Theis Søndergaard - COO & Co-founder, Vivino"
+
+  - title: "Atea Denmark"
+    period: "2012/06 - 2013/04"
+    description: |
+      <p>I was hired to design and implement a public and two administrative webinterfaces for Atea's tele project.</p>
+    technology: "Photoshop, Jekyll (for prototyping), LESS, CSS, Grunt, JS, Twitter Bootstrap, jQuery, Github, Subversion"
+    role: "Front-end developer, UI Specialist"
+    contact: "Sara Amini, Martin Bo, Asbjørn Johansen"
+    images:
+      - small: "/img/work/2012-06_ateatele_01.jpg"
+        large: "/img/work/2012-06_ateatele_01_lg.jpg"
+      - small: "/img/work/2012-06_ateatele_02.jpg"
+        large: "/img/work/2012-06_ateatele_02_lg.jpg"
+      - small: "/img/work/2012-06_ateatele_03.jpg"
+        large: "/img/work/2012-06_ateatele_03_lg.jpg"
+
+  - title: "Briza Maxima"
+    period: "2012/02 - 2012/03"
+    description: |
+      <p>In this project I designed an online identity for the Briza Maxima girls. Working closely together with Briza Maxima, doing mindmaps and trying my best to get all the girls ideas down on paper, I managed to come up with a design that would represent the girls and their process of working.</p>
+    resposibility: |
+        <ul>
+          <li>Interviewing Briza Maxima and creating sketches based on their many ideas.</li>
+          <li>Creating final designs and illustrations based on the sketches.</li>
+        </ul>
+    technology: "Photoshop, Jekyll, GitHub"
+    role: "Webdesigner"
+    images:
+      - small: "/img/work/2012-03-28-briza-1.jpg"
+        large: "/img/work/2012-03-28-briza-1-lg.jpg"
+      - small: "/img/work/2012-03-28-briza-2.jpg"
+        large: "/img/work/2012-03-28-briza-2-lg.jpg"
+      - small: "/img/work/2012-03-28-briza-3.jpg"
+        large: "/img/work/2012-03-28-briza-3-lg.jpg"
+
+
+  - title: "Volkswagen Denmark"
+    period: "2011/11 - 2011/12"
+    description: |
+        <p>Designing and implementing a web application for an infostand, that would allow customers to sign up for a competition and order a demoride and brochures</p>
+        <p>The main goal was to keep everything web based to keep the cost of the application down.</p>
+    resposibility: |
+        <ul>
+            <li>Designing a layout to fit an iPad in portrait mode.</li>
+            <li>Implementing the design into JQuery Mobile templates.</li>
+            <li>Adding gesture based navigation (swiping left and right).</li>
+            <li>Creating a toggle effect and a switch functionality to hide some of the form fields until needed.</li>
+        </ul>
+    technology: "JQuery Mobile, HTML, CSS, JavaScript, Photoshop"
+    role: "HTML Developer, Front-end dude, Webdesigner"
+    images:
+      - small: "/img/work/vw-infostand-thumb.jpg"
+        large: "/img/work/2011-11-15_volkswagen_infostand.jpg"
+
+
+  - title: "Audi Denmark"
+    period: "2011/10 - 2011/11"
+    description: |
+        <p>Creating a iPad based version of a info-stand for an annual danish auto show. The stand allowed customers to view car specs, price and order a demoride and brochures.</p>
+        <p>The primary goal was to keep everything web based.</p>
+    resposibility: |
+        <ul>
+            <li>Designing a basic layout for a portrait positioned iPad.</li>
+            <li>Testing different webbased mobile frameworks that would shorten the development time (JQuery Mobile, Sencha, JTouch, etc.).</li>
+            <li>Implementing the design into JQuery Mobile templates. Creating a stylesheet for overwriting the standard styles.</li>
+            <li>Adding gesture based navigation</li>
+        </ul>
+    technology: "JQuery Mobile, HTML, CSS, JavaScript, Photoshop"
+    role: "Front-end developer, webdesigner"
+    images:
+      - small: "/img/work/audi-infostand-thumb.jpg"
+        large: "/img/work/2011-11-03_audi_infostand.jpg"
+
+  - title: "Skoda Denmark"
+    period: "2011/04 - 2011/05"
+    description: |
+      <p>Skoda made a quick 'n' dirty implementation of the new CI on skoda.dk because of a tight deadline and hired me to make a thorough review and re-implementation of the the HTML, CSS and JavaScript and give advice on how to optimize certain areas of the site. </p>
+    resposibility: |
+        <ul>
+        <li>Reviewing/testing the old implementation.</li>
+        <li>Advising the client on the solutions and estimating the tasks.</li>
+        <li>Re-writing and optimizing the HTML and CSS.</li>
+        <li>Fixing menu compatibility issues with Internet Explorer.</li>
+        <li>Migrating from Prototype JS framework to JQuery, rewriting the old functionality.</li>
+        <li>Implementing a JQuery carousel</li>
+        </ul>
+    technology: "HTML, CSS, JavaScript, Photoshop, Flash, JQuery, Prototype"
+    role: ""
+    # images:
+
+  - title: "Semler Group (Scandinavian Motor Co.)"
+    period: "2009/04 - 2010/08"
+    description: |
+      <p>The project was a ground up redesign of an old web based application maintaining the websites of the 250+ car dealers associated to Semler Group (VW).</p>
+      <p>I was responsible for designing portal- and public brand sites for 13 car brands, and implementing 25 HTML based templates pr. brand. Furthermore a new CMS/admin system was designed and implemented specially for this project. </p>
+      <p>Scrum and Agile methods were used in this project. The development team consisted of 2 developers and 1 designer (DAS). </p>
+    resposibility: |
+        <h4>Responsibility</h4>
+        <ul>
+            <li>Planning the initial site maps for the admin site and public sites.</li>
+            <li>Planning the functionality of the public sites and creating the requirements for the admin system based on this knowledge.</li>
+            <li>Analyzing and planning how to mold the 13 designs to run on identical markup.</li>
+            <li>Wire frames/mock-ups - planning/designing the admin workflow and wizards.</li>
+            <li>Designing UI for the admin system and converting the designs into templates using HTML, CSS and JavaScript.</li>
+            <li>Designing UI for public pages and converting the designs into templates using HTML, CSS and JavaScript.</li>
+            <li>Optimizing the markup for SEO and printing.</li>
+            <li>Optimizing front-end load time using Cache Right (GZip), YSlow and Firebug.</li>
+            <li>Implementing dynamic XML based Flash loader to handle campaigns including videos and animation from the admin system.</li>
+            <li>Implementing an image cropper for the admin section.</li>
+            <li>Debugging. Bug reporting in FogBugz.</li>
+        </ul>
+    technology: "Adobe Photoshop, HTML, CSS, JavaScript, AJAX, Prototype JS, Subversion, FogBugz, Flash"
+    role: "Webdesigner, front-end developer"
+    images:
+      - small: "/img/work/2010-07-29_ifha_screenshot_1.jpg"
+        large: "/img/work/2010-07-29_ifha_screenshot_1.jpg"
+      - small: "/img/work/2010-07-29_ifha_screenshot_2.jpg"
+        large: "/img/work/2010-07-29_ifha_screenshot_2.jpg"
+      - small: "/img/work/2010-07-29_ifha_screenshot_3.jpg"
+        large: "/img/work/2010-07-29_ifha_screenshot_3.jpg"
+      - small: "/img/work/2010-07-29_ifha_screenshot_4.jpg"
+        large: "/img/work/2010-07-29_ifha_screenshot_4.jpg"
+      - small: "/img/work/2010-07-29_ifha_screenshot_5.jpg"
+        large: "/img/work/2010-07-29_ifha_screenshot_5.jpg"
+      - small: "/img/work/2010-07-29_ifha_screenshot_6.jpg"
+        large: "/img/work/2010-07-29_ifha_screenshot_6.jpg"
+      - small: "/img/work/2010-07-29_ifha_screenshot_7.jpg"
+        large: "/img/work/2010-07-29_ifha_screenshot_7.jpg"
+      - small: "/img/work/2010-07-29_ifha_screenshot_8.jpg"
+        large: "/img/work/2010-07-29_ifha_screenshot_8.jpg"
+      - small: "/img/work/2010-07-29_ifha_screenshot_9.jpg"
+        large: "/img/work/2010-07-29_ifha_screenshot_9.jpg"
+      - small: "/img/work/2010-07-29_ifha_screenshot_10.jpg"
+        large: "/img/work/2010-07-29_ifha_screenshot_10.jpg"
+      - small: "/img/work/2010-08-02_administration_site_tree_design.jpg"
+        large: "/img/work/2010-08-02_administration_site_tree_design.jpg"
+    contact: "Head of the Internet department, Semler Services A/S Thomas Hansen"
