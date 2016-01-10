@@ -1,6 +1,6 @@
 $(function(){
 
-    animsition
+    // animsition
     $('.animsition').animsition({
         inDuration: 800,
         outDuration: 400,
