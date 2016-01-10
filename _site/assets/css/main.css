@@ -5482,7 +5482,7 @@ a:focus {
   display: inline-block;
   height: 53px;
   width: 175px;
-  background: url(../img/logo.svg) 0 0 no-repeat;
+  background: url(../images/logo.svg) 0 0 no-repeat;
   background-size: 175px 53px;
   overflow: hidden;
   text-indent: 101%;
@@ -5494,7 +5494,6 @@ a:focus {
     .logo {
       height: 68px;
       width: 225px;
-      background: url(../img/logo.svg) 0 0 no-repeat;
       background-size: 225px 68px; } }
 
 .stage {
