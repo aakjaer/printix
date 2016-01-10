@@ -4,9 +4,12 @@
 
 @media screen and (max-width: $screen-sm-max) {
 
-	.site-header .site-nav {
+	// hide header nav
+	.header-nav .site-nav,
+	.sticky-header {
 		display: none;
 	}
+
 
 	.sidebar {
 		position: fixed;
@@ -212,17 +215,53 @@
 
 /////////////////////////////////////
 
-
 @media screen and (min-width: $screen-md-min) {
 
+	// hide the sidebar nav
 	.sidebar,
 	.nav-trigger {
 		display: none;
 	}
 
+	.header-nav {
+		position: absolute;
+		top: 0;
+		left: 0;
+		right: 0;
+		z-index: 999;
+	}
+
+	.sticky-header {
+		position: fixed;
+		@include transform(translateY(-100%));
+		@include transition(transform 0.15s ease-in);
+		@include box-shadow(rgba(0, 31, 51, 0.09) 0px 1px 0px 0px);
+		background: #fff;
+
+		.logo {
+			top: 12px;
+			width: 45px;
+			height: 45px;
+			background-size: 145px auto;
+		}
+
+		.site-nav a {
+			padding-top: 20px;
+			padding-bottom: 20px;
+			font-size: 0.9em;
+		}
+	}
+
+	// go go stickyness
+	.sticky .sticky-header {
+		display: block;
+		@include transform(translateY(0));
+		@include transition(transform 0.4s ease-out);
+	}
+
 	.site-nav {
 		float: right;
-		margin: 15px 30px 0 0;
+		margin-right: 30px;
 	}
 
 	ul {
@@ -236,7 +275,7 @@
 		float: left;
 	}
 
-	a {
+	.site-nav a {
 		display: block;
 		padding: 20px 30px;
 		font-size: 18px;
