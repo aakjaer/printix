@@ -325,18 +325,59 @@ table td {
 }
 
 footer[role="contentinfo"] {
-	margin-top: 25px;
-	padding-top: 25px;
-	padding-bottom: 40px;
+	padding-top: 1.5em;
+	padding-bottom: 1em;
+	color: rgba(0,0,0,0.4);
 
 	h4 {
 		font-size: 0.9em;
 		text-transform: uppercase;
-		color: rgba(0,0,0,0.4);
+		color: rgba(0,0,0,0.5);
 	}
 
 	ul {
 		@extend .list-unstyled;
+
+		a {
+			color: rgba(0,0,0,0.4);
+			font-size: 0.9em;
+		}
+	}
+
+	address {
+		margin: 0;
+	}
+
+	.separator {
+		display: inline-block;
+		margin: 0 15px;
+	}
+}
+
+.footer-contact {
+	margin-top: 2em;
+	padding-top: 1em;
+	border-top: 1px solid $gray-lighter;
+	font-size: .9em;
+}
+
+.social-links {
+	text-align: right;
+
+	li { display: inline-block; }
+
+	li + li {
+		margin-left: 10px;
+	}
+
+	.icon {
+		height: 40px;
+		width: 40px;
+		@include transition(transform 0.2s ease-out);
+
+		&:hover {
+			@include transform(scale(1.2));
+		}
 	}
 }
 
