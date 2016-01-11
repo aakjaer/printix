@@ -1,14 +1,25 @@
 <!-- sign up cta -->
 <div class="section-sign-up-cta section section-gray section-compact">
 	<div class="section-content">
-		<h3 class="section-heading-sm animate fadein editable">Ready to give it a try?</h3>
-		<p class="lead-sm">Catch the Print Management Cloud Wave with the other visionaries.</p>
+		<h3 class="section-heading-sm animate fadein editable">
+			{{ include.header }}
+		</h3>
+		{% if include.text %}
+		<p class="lead-sm">
+			{{ include.text }}
+		</p>
+		{% endif %}
 
-		<form class="form-inline text-center">
-			<div class="form-group">
-				<input type="email" class="form-control" id="inputEmail" placeholder="Your email">
-			</div>
-			<button type="submit" class="btn btn-primary">Sign up</button>
-		</form>	
+		<form accept-charset="UTF-8" action="https://xr236.infusionsoft.com/app/form/process/85769165630c12769abd3540125bd5ac" class="infusion-form form form-inline" method="POST">
+		    <input name="inf_form_xid" type="hidden" value="85769165630c12769abd3540125bd5ac">
+		    <input name="inf_form_name" type="hidden" value="Sign up for newsletter">
+		    <input name="infusionsoft_version" type="hidden" value="1.41.0.37">
+		    <div class="form-group">
+		        <input placeholder="Your email" class="infusion-field-input-container form-control" id="inf_field_Email" name="inf_field_Email" type="email" required>
+		    </div>
+		    <div class="form-group">
+		        <button type="submit" class="btn btn-primary">Sign up</button>
+		    </div>
+		</form>
 	</div>
 </div>
