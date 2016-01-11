@@ -329,6 +329,20 @@ footer[role="contentinfo"] {
 	padding-bottom: 1em;
 	color: rgba(0,0,0,0.4);
 	border-top: 1px solid $gray-lighter;
+	text-align: center;
+
+	.col {
+		@extend .col-sm-4;
+		
+		+ .col {
+			margin-top: 1.5em;
+		}
+	}
+
+	@media screen and (min-width: $screen-sm-min) {
+		text-align: left;
+	}
+
 
 	h4 {
 		font-size: 0.9em;
@@ -363,7 +377,12 @@ footer[role="contentinfo"] {
 }
 
 .social-links {
-	text-align: right;
+	margin-top: 1em;
+
+	@media screen and (min-width: $screen-sm-min) {
+		text-align: right;
+	}
+
 
 	li { display: inline-block; }
 
