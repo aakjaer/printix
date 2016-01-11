@@ -17,7 +17,7 @@ h6,.zeta    { }
 .heavy { font-weight: 900; }
 
 .lead {
-    max-width: 20em;
+    max-width: 30em;
     @include center-block;
     margin-bottom: 3em;
     font-weight: 400;
@@ -26,12 +26,19 @@ h6,.zeta    { }
     color: rgba($text-color, 0.7);
 
     @media (min-width: $screen-sm-min) {
-        font-size: 1.4em;
+        // font-size: 1.4em;
     }
 
     &.text-center {
         @include center-block();
     }
+}
+
+.lead-sm {
+    @extend .lead;
+    font-size: 1.2em;
+    margin-bottom: 2em;
+    color: #bbb;
 }
 
 .text-nowrap {
@@ -68,7 +75,7 @@ h6,.zeta    { }
 
 .hero-heading {
     max-width: 12em;
-    margin: 0 auto;
+    @include center-block;
     font-size: 12vw; // has backup size from headers
     font-weight: 700;
     text-align: center;

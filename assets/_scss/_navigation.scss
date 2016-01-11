@@ -1,6 +1,9 @@
 // bourban dependent
 @import '../../components/bourbon/app/assets/stylesheets/bourbon';
 
+.site-nav li a {
+	@include user-select(none);
+}
 
 @media screen and (max-width: $screen-sm-max) {
 
@@ -9,7 +12,6 @@
 	.sticky-header {
 		display: none;
 	}
-
 
 	.sidebar {
 		position: fixed;
@@ -231,7 +233,41 @@
 		z-index: 999;
 
 		.active a {
-			@include box-shadow(inset 0 3px 0 $brand-orange);
+			color: $brand-orange;
+		}
+	}
+
+	.header-nav:not(.sticky-header) li {
+		padding-top: 15px;
+	}
+
+	.site-nav {
+		float: right;
+		margin-right: 30px;
+		
+		ul {
+			@include clearfix;
+			list-style: none;
+			margin: 0;
+			padding: 0;
+		}
+
+		li {
+			float: left;
+			margin-left: 10px;
+		}
+
+		a {
+			display: block;
+			padding: 20px;
+			font-size: 18px;
+			color: $gray-dark;
+			font-weight: 700;
+			@include transition(color 0.3s);
+
+			&:hover {
+				color: $brand-orange;
+			}
 		}
 	}
 
@@ -244,7 +280,7 @@
 
 		.logo {
 			top: 10px;
-			width: 45px;
+			width: 145px;
 			height: 45px;
 			background-size: 145px auto;
 		}
@@ -261,31 +297,6 @@
 		display: block;
 		@include transform(translateY(0));
 		@include transition(transform 0.4s ease-out);
-	}
-
-	.site-nav {
-		float: right;
-		margin-right: 30px;
-	}
-
-	ul {
-		@include clearfix;
-		list-style: none;
-		margin: 0;
-		padding: 0;
-	}
-
-	li {
-		float: left;
-		margin-left: 10px;
-	}
-
-	.site-nav a {
-		display: block;
-		padding: 20px;
-		font-size: 18px;
-		color: $gray-dark;
-		font-weight: 700;
 	}
 }
 

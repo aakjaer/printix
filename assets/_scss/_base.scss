@@ -13,7 +13,7 @@ body {
 }
 
 @include selection {
-	background: $brand-green;
+	background: $brand-blue;
 	color: #fff;
 	opacity: 1;
 }
@@ -189,21 +189,7 @@ blockquote {
 }
 
 .btn {
-    display: inline-block;
-    margin-bottom: 0;
-    font-weight: normal;
-    text-align: center;
-    vertical-align: middle;
-    touch-action: manipulation;
-	font-family: $headings-font-family;
-	border-radius: 6px;
-    cursor: pointer;
-    border: 1px solid transparent;
-    white-space: nowrap;
-    padding: 6px 12px;
-    font-size: 18px;
-    line-height: 1.6;
-    @include user-select(none);
+	font-weight: 700;
 }
 
 .cta {
@@ -257,25 +243,6 @@ blockquote {
 	&:hover {
 		background: darken($brand-green, 10%);
 		color: white;
-	}
-}
-
-.btn-submit {
-    padding: 0 2em;
-	line-height: 3.5em;
-    text-transform: uppercase;
-    font-weight: 800;
-	border: 3px solid $brand-green;
-	background: transparent;
-	color: $brand-green;
-	border-width: 3px;
-	font-size: 1em;
-	@include transition(all 0.3s);
-
-	&:hover {
-		background: $brand-green;
-		color: white;
-		border-color: transparent;
 	}
 }
 
@@ -359,7 +326,18 @@ table td {
 
 footer[role="contentinfo"] {
 	margin-top: 25px;
-	padding: 25px 0 40px;
+	padding-top: 25px;
+	padding-bottom: 40px;
+
+	h4 {
+		font-size: 0.9em;
+		text-transform: uppercase;
+		color: rgba(0,0,0,0.4);
+	}
+
+	ul {
+		@extend .list-unstyled;
+	}
 }
 
 .animating {

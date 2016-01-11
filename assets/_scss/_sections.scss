@@ -15,18 +15,16 @@
 }
 
 .section-compact .section-content {
-    padding-top: 2em;
-    padding-bottom: 2em;
+    padding-top: 3em;
+    padding-bottom: 3em;
 }
 
 .section-heading {
+    margin-top: 0;
     font-size: 1.8em;
     font-weight: 700;
     text-align: center;
-
-    &:first-child {
-        margin-top: 0;
-    }
+    letter-spacing: -0.025em;
 
     @media (min-width: $screen-sm) {
         font-size: 2.8em;
@@ -34,12 +32,13 @@
 }
 
 .section-heading-sm {
-    margin-bottom: 1.5em;
-    font-size: 1em;
-    font-weight: 900;
+    margin-top: 0;
+    font-size: 1.5em;
+    font-weight: 700;
+    text-align: center;
 
     @media (min-width: $screen-sm) {
-        font-size: 1.3em;
+        font-size: 1.8em;
     }
 }
 
@@ -92,8 +91,13 @@
     max-width: 50em;
 }
 
-// color combinations
+.section-intro .section-content {
+    padding-top: 8em;
+}
 
+
+
+// color combinations
 .section-white {
     background: white;
     color: $gray;
@@ -155,26 +159,32 @@
     background-color: #f2f2f2;
 }
 
-
-
-
-
 ////////////////////////////////////////////////////
 
 
-.section-screenshots {
-	.row {
-		margin: 0;
-	}
 
-	.col {
-		@include make-xs-column(2, 0);
-		@include make-sm-column(1, 0);
-	}
-}
+.section-sign-up-cta {
+    text-align: center;
 
-.section-skills {
-    .display-heading {
-        color: white;
+    .form {
+        margin-bottom: 10px;
+    }
+
+    .btn {
+        width: 100%;
+        padding: 8px 32px;
+        font-size: 1.1em;
+
+        @media screen and (min-width: $screen-sm-min) {
+            width: auto;
+            margin-left: 15px;
+        }
+    }
+
+    .form-control {
+        height: 52px;
+        min-width: 300px;
     }
 }
+
+
