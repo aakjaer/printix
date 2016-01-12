@@ -1,10 +1,11 @@
 // Content sections
 .section {
     position: relative;
+    overflow: hidden;
     background-repeat: no-repeat;
 }
 
-.section .section-content {
+.section-content {
     @extend .container;
     padding-top: 6em;
     padding-bottom: 6em;
@@ -14,6 +15,18 @@
     }
 }
 
+.section-full .section-content {
+    width: auto !important;
+    max-width: 90%;
+    padding-top: 6em;
+    padding-bottom: 6em;
+
+    @media screen and (min-width: $screen-sm-min) {
+        max-width: 1440px;
+    }
+}    
+
+
 .section-compact .section-content {
     padding-top: 3em;
     padding-bottom: 3em;
@@ -22,7 +35,7 @@
 .section-heading {
     margin-top: 0;
     font-size: 1.8em;
-    font-weight: 700;
+    font-weight: 400;
     text-align: center;
     letter-spacing: -0.025em;
 
@@ -42,12 +55,6 @@
     }
 }
 
-
-.section-image {
-    display: block;
-    max-width: 500px;
-    background-repeat: no-repeat;
-}
 
 .section-image-center {
     @include center-block();
@@ -162,6 +169,93 @@
 ////////////////////////////////////////////////////
 
 
+// product tour
+
+.tour-description {
+    color: $gray-light;
+
+    @media screen and (min-width: $screen-sm-min) {
+        max-width: 32em;
+        @include center-block;
+        padding: 0 2em;
+    }
+}
+
+.tour-icon {
+    display: inline-block;
+    height: 20px;
+    margin-right: 7px;
+    @include transform(translateY(-1px));
+}
+
+.tour-image {
+    position: relative;
+    @include center-block;
+
+    img {
+        display: block;
+    }
+
+    @media screen and (min-width: $screen-sm-min) {
+        padding: 0;
+        max-width: none;
+    }
+}
+
+.tour-heading {
+    margin: 1em 0;
+    font-weight: 300;
+}
+
+.tour-sub-heading {
+    margin-top: 2em;
+    font-size: 1.3em;
+    color: #434343;
+}
+
+
+// tweaks and overwrites
+.zero-automated {
+    
+    .tour-image {
+        margin-top: 3em;
+    }
+
+    @media screen and (min-width: $screen-sm-min) {
+        
+        .tour-image img {
+            width: calc(100% + 50px);
+            @include transform(translateX(-50px));
+        }
+    }
+
+    @media screen and (min-width: $screen-md-min) {
+        .tour-heading {
+            margin-top: 2em;
+        }
+    }
+}
+
+
+.zero-print-admin {
+
+    .tour-image {
+        margin-top: 3em;
+    }
+
+    .tour-image img {
+        @media screen and (min-width: $screen-sm-min) {
+            max-width: none;
+            width: calc(100% + 300px);
+            @include transform(translateX(50px));
+        }
+
+        @media screen and (min-width: $screen-md-min) {
+            width: calc(100% + 50px);
+            @include transform(translateX(50px));
+        }
+    }
+}
 
 .section-sign-up-cta {
     text-align: center;
