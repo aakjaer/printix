@@ -341,6 +341,10 @@ footer[role="contentinfo"] {
 
 	@media screen and (min-width: $screen-sm-min) {
 		text-align: left;
+
+		.col + .col {
+			margin-top: 0;
+		}
 	}
 
 
