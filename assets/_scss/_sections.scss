@@ -284,4 +284,11 @@
     }
 }
 
+.section-security {
+    .tour-image {
+        @media screen and (min-width: $screen-sm-min) and (max-width: $screen-sm-max) {
+            margin-top: 3em;
+        }
+    }
+}
 
