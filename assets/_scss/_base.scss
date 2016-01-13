@@ -335,10 +335,14 @@ footer[role="contentinfo"] {
 
 	ul {
 		@extend .list-unstyled;
+	}
 
-		a {
-			color: rgba(0,0,0,0.4);
-			font-size: 0.9em;
+	a {
+		color: rgba(0,0,0,0.4);
+		font-size: 0.9em;
+
+		&:hover {
+			color: $brand-orange;
 		}
 	}
 
