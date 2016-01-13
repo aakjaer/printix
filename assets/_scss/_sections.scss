@@ -91,7 +91,7 @@
 }
 
 .section-bordered {
-    border-top: 5px dashed $gray-lighter;
+    border-top: 1px solid $gray-lighter;
 }
 
  .section-narrow .section-content {
@@ -168,8 +168,8 @@
 
 ////////////////////////////////////////////////////
 
-
 // product tour
+
 
 .tour-description {
     color: $gray-light;
@@ -203,7 +203,7 @@
 }
 
 .tour-heading {
-    margin: 1em 0;
+    margin: 0 0 1em;
     font-weight: 300;
 }
 
@@ -219,19 +219,17 @@
     
     .tour-image {
         margin-top: 3em;
-    }
 
-    @media screen and (min-width: $screen-sm-min) {
-        
-        .tour-image img {
-            width: calc(100% + 50px);
-            @include transform(translateX(-50px));
+        @media screen and (min-width: $screen-sm-min) {
+            width: calc(100% + 100px);
+            max-width: none;
+            @include transform(translateX(-100px));
         }
     }
 
     @media screen and (min-width: $screen-md-min) {
         .tour-heading {
-            margin-top: 2em;
+            margin-top: 3em;
         }
     }
 }
@@ -241,9 +239,7 @@
 
     .tour-image {
         margin-top: 3em;
-    }
 
-    .tour-image img {
         @media screen and (min-width: $screen-sm-min) {
             max-width: none;
             width: calc(100% + 300px);
@@ -251,11 +247,19 @@
         }
 
         @media screen and (min-width: $screen-md-min) {
+            margin-top: 0;
             width: calc(100% + 50px);
             @include transform(translateX(50px));
         }
     }
 }
+
+.zero-cost-saving {
+    .tour-image {
+        max-width: 450px;
+    }
+}
+
 
 .section-sign-up-cta {
     text-align: center;
