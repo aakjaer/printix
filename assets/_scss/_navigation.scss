@@ -33,6 +33,11 @@
 		}
 	}
 
+	.menu-shown,
+	.menu-shown > body {
+		overflow: hidden;
+	}
+
 	.menu-shown .content-wrapper,
 	.menu-shown .nav-trigger,
 	.menu-shown .logo {
