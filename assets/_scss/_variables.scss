@@ -4,7 +4,7 @@
 // custom variables
 
 $brand-red: #F9615B;
-$brand-blue: #35ADC3;
+$brand-blue: #3481AF;
 $brand-green: #6FAD79;
 $brand-dark-blue: #293B50;
 $brand-light-blue: #A1DDF9;
@@ -31,3 +31,16 @@ $above-content: 3;
 
 $primary-font: sans-serif;
 $link-color: $brand-green;
+
+
+
+// Pricing tables
+$pt-number: 2; // number of pricing tables
+$pt-header-mobile-height: 80px;
+$pt-margin: 0.015; // distance between tables - percentage value
+$pt-features-number: 6;
+$pt-feature-mobile-width: 100px;
+
+// bouncy animation
+$cd-perspective: 2000px;
+$cd-animation-duration: .5s;

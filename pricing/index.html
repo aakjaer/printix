@@ -3,11 +3,146 @@ layout: default
 bodyclass: page-pricing
 ---
 
-<div class="section">
-	<div class="section-content">
-		<h1 class="hero-heading editable">Pricing</h1>
-		<p class="lead editable">Prices coming soon!</p>
+<div class="section section-intro section-gray">
+	<div class="section-content cd-has-margins">
+		<h1 class="hero-heading editable">Pricing plan</h1>
+
+		<div class="cd-pricing-container cd-has-margins">
+			<div class="cd-pricing-switcher">
+				<p class="fieldset">
+					<input type="radio" name="duration" value="monthly" id="monthly" checked>
+					<label for="monthly">Monthly</label>
+					<input type="radio" name="duration" value="yearly" id="yearly">
+					<label for="yearly">Yearly</label>
+					<span class="cd-switch"></span>
+				</p>
+			</div> <!-- .cd-pricing-switcher -->
+
+			<ul class="cd-pricing-list cd-bounce-invert">
+				<li>
+					<ul class="cd-pricing-wrapper">
+						<li data-type="monthly" class="is-visible">
+							<header class="cd-pricing-header">
+								<h2>Printix Zero</h2>
+
+								<div class="cd-price">
+									<span class="cd-currency">$</span>
+									<span class="cd-value">0</span>
+									<span class="cd-duration">pr. month</span>
+								</div>
+							</header> <!-- .cd-pricing-header -->
+
+							<div class="cd-pricing-body">
+								<ul class="cd-pricing-features">
+									<li>Automate drivers</li>
+									<li>Automate queues</li>
+									<li><em>Unlimited</em> users</li>
+									<li><em>Unlimited</em> printers</li>
+									<li class="not-included">Print Now/Print Later</li>
+									<li class="not-included">Secure Print</li>
+									<li class="not-included">Mobile Print</li>
+									<li>Self service help center</li>
+								</ul>
+							</div> <!-- .cd-pricing-body -->
+
+							<footer class="cd-pricing-footer">
+								<a class="btn btn-cta" href="{{ site.baseurl }}/zero/sign-up/">Sign up</a>
+							</footer>  <!-- .cd-pricing-footer -->
+						</li>
+
+						<li data-type="yearly" class="is-hidden">
+							<header class="cd-pricing-header">
+								<h2>Printix Zero</h2>
+
+								<div class="cd-price">
+									<span class="cd-currency">$</span>
+									<span class="cd-value">0</span>
+									<span class="cd-duration">pr. month</span>
+								</div>
+							</header> <!-- .cd-pricing-header -->
+
+							<div class="cd-pricing-body">
+								<ul class="cd-pricing-features">
+									<li>Automate drivers</li>
+									<li>Automate queues</li>
+									<li><em>Unlimited</em> users</li>
+									<li><em>Unlimited</em> printers</li>
+									<li class="not-included">Print Now/Print Later</li>
+									<li class="not-included">Secure Print</li>
+									<li class="not-included">Mobile Print</li>
+									<li>Self service help center</li>
+								</ul>
+							</div> <!-- .cd-pricing-body -->
+
+							<footer class="cd-pricing-footer">
+								<a class="btn btn-cta" href="{{ site.baseurl }}/zero/sign-up/">Sign up</a>
+							</footer>  <!-- .cd-pricing-footer -->
+						</li>
+					</ul> <!-- .cd-pricing-wrapper -->
+				</li>
+
+				<li class="cd-popular">
+					<ul class="cd-pricing-wrapper">
+						<li data-type="monthly" class="is-visible">
+							<header class="cd-pricing-header">
+								<h2>Printix Freedom</h2>
+								<div class="cd-price">
+									<span class="cd-currency">$</span>
+									<span class="cd-value">1.99</span>
+									<span class="cd-duration">pr. user / month - billed monthly</span>
+								</div>
+							</header> <!-- .cd-pricing-header -->
+
+							<div class="cd-pricing-body">
+								<ul class="cd-pricing-features">
+									<li>Automate drivers</li>
+									<li>Automate queues</li>
+									<li><em>Unlimited</em> users</li>
+									<li><em>Unlimited</em> printers</li>
+									<li>Print Now/Print Later</li>
+									<li>Secure Print</li>
+									<li>Mobile Print</li>
+									<li>Self service help center</li>
+								</ul>
+							</div> <!-- .cd-pricing-body -->
+
+							<footer class="cd-pricing-footer">
+								<a class="btn btn-cta btn-secondary">Coming soon</a>
+							</footer>  <!-- .cd-pricing-footer -->
+						</li>
+
+						<li data-type="yearly" class="is-hidden">
+							<header class="cd-pricing-header">
+								<h2>Printix Freedom</h2>
+
+								<div class="cd-price">
+									<span class="cd-currency">$</span>
+									<span class="cd-value">1.59</span>
+									<span class="cd-duration">pr. user / month - billed yearly</span>
+								</div>
+							</header> <!-- .cd-pricing-header -->
+
+							<div class="cd-pricing-body">
+								<ul class="cd-pricing-features">
+									<li>Automate drivers</li>
+									<li>Automate queues</li>
+									<li><em>Unlimited</em> users</li>
+									<li><em>Unlimited</em> printers</li>
+									<li>Print Now/Print Later</li>
+									<li>Secure Print</li>
+									<li>Mobile Print</li>
+									<li>Self service help center</li>
+								</ul>
+							</div> <!-- .cd-pricing-body -->
+
+							<footer class="cd-pricing-footer">
+								<a class="btn btn-cta btn-secondary">Coming soon</a>
+							</footer>  <!-- .cd-pricing-footer -->
+						</li>
+					</ul> <!-- .cd-pricing-wrapper -->
+				</li>
+			</ul> <!-- .cd-pricing-list -->
+		</div>
 	</div>
 </div>
 
-{% include sign-up.html %}
