@@ -1,8 +1,8 @@
 {
-  "name": "aakjaer.co",
-  "homepage": "https://github.com/aakjaer/aakjaer.co",
+  "name": "Printix.net",
+  "homepage": "Printix.net",
   "authors": [
-    "Daniel Aakjær Sørensen <daniel@hamsterboy.dk>"
+    "Daniel Aakjær Sørensen <daniel.aakjer@gmail.com>"
   ],
   "description": "",
   "main": "",
@@ -11,7 +11,7 @@
   "ignore": [
     "**/.*",
     "node_modules",
-    "test",
-    "tests"
+    "",
+    ""
   ]
 }
